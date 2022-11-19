@@ -27,7 +27,7 @@ expected1 = np.array([[0.3, 3, 5],
 # Define test functions
 def test_numpy_version():
     """
-    Checks for the correct NumPy version as per specification
+    Checks for the correct NumPy version as per specification 
     """
     np_ver = np.__version__
     assert(np_ver == "1.22.4")
