@@ -5,7 +5,7 @@ import numpy as np
 a = np.array([[0, 1, 2],
               [3, 4, 5],
               [6, 7, 8]])
-b = np.array([[8, 7, 6],
+b = np.array([[8, 7, 5],
               [5, 4, 3],
               [2, 1, 0]])
 expected = np.array([[8, 8, 8],
