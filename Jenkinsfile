@@ -11,7 +11,7 @@ pipeline {
 
    post {
        always {
-           junit testResults: 'latest_test_results.xml', keepLongStdio: true
+           junit 'latest_test_results.xml'
        }
    }
 }
